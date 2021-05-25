@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56140168-f8ab-4c23-8eae-37a5f7cf2d38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/auth/components/Sample/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/auth/components/Sample/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/auth/components/Auth/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/auth/components/Auth/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/auth/components/Auth/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/auth/components/Auth/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/auth/components/Auth/stul.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/auth/components/Auth/stul.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/auth/components/Auth/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/auth/components/Auth/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +37,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/auth/components/Sample" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\web-projects\react-todo\src\pages\auth\components\Sample" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -60,7 +73,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619494195227</updated>
-      <workItem from="1619494198924" duration="603000" />
+      <workItem from="1619494198924" duration="893000" />
+      <workItem from="1619627434335" duration="1313000" />
+      <workItem from="1620399355095" duration="7301000" />
+      <workItem from="1620658161971" duration="2981000" />
+      <workItem from="1621609351437" duration="799000" />
+      <workItem from="1621611332452" duration="140000" />
+      <workItem from="1621611543579" duration="135000" />
+      <workItem from="1621611687600" duration="153000" />
+      <workItem from="1621611850234" duration="149000" />
+      <workItem from="1621612009158" duration="1936000" />
+      <workItem from="1621694600094" duration="451000" />
+      <workItem from="1621785885330" duration="628000" />
+      <workItem from="1621914515509" duration="1137000" />
+      <workItem from="1621947102166" duration="1224000" />
     </task>
     <servers />
   </component>
@@ -68,25 +94,45 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="183" key="#Updates" timestamp="1621611875682">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="183" key="#Updates/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1621611875682" />
+    <state x="640" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1621611882355">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="640" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1621611882355" />
     <state x="2610" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619459618878">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2610" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619459618878" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1619494702050">
+    <state x="2505" y="119" key="CommitChangelistDialog2" timestamp="1621952332653">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619494702050" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1619494702050">
+    <state x="2505" y="119" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1621952332653" />
+    <state width="1877" height="154" key="GridCell.Tab.0.bottom" timestamp="1621952265777">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619494702050" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1619494702050">
+    <state width="1877" height="154" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1621619222327" />
+    <state width="1877" height="154" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1621952265777" />
+    <state width="1877" height="154" key="GridCell.Tab.0.center" timestamp="1621952265777">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619494702050" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1619494702050">
+    <state width="1877" height="154" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1621619222327" />
+    <state width="1877" height="154" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1621952265777" />
+    <state width="1877" height="154" key="GridCell.Tab.0.left" timestamp="1621952265777">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619494702050" />
+    <state width="1877" height="154" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1621619222327" />
+    <state width="1877" height="154" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1621952265777" />
+    <state width="1877" height="154" key="GridCell.Tab.0.right" timestamp="1621952265777">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="154" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1621619222327" />
+    <state width="1877" height="154" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1621952265777" />
+    <state x="2577" y="257" width="606" height="536" key="find.popup" timestamp="1620404329316">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2577" y="257" width="606" height="536" key="find.popup/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1620404329316" />
   </component>
 </project>
