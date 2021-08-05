@@ -1,0 +1,11 @@
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*height: 100vh;*/
+}
+.auth__wrapper {
+  background: #282c34;
+  color: antiquewhite;
+  width: 100%;
+}

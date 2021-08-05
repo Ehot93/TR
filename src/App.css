@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.Main {
+  background: #000;
+  color: #fff;
+  height: 100%;
+  /*position: absolute;*/
+  width: 100%;
+}
+
+.Main a {
+    color: #fff;
+  }

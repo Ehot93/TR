@@ -178,7 +178,7 @@ module.exports = function (webpackEnv) {
             // of CSS changes), or refresh the page (in case of JS changes). When you
             // make a syntax error, this client will display a syntax error overlay.
             // Note: instead of the default WebpackDevServer client, we use a custom one
-            // to bring better experience for Create React App users. You can replace
+            // to bring better experience for Create React Index users. You can replace
             // the line below with these two lines if you prefer the stock client:
             //
             // require.resolve('webpack-dev-server/client') + '?/',
@@ -361,8 +361,25 @@ module.exports = function (webpackEnv) {
       strictExportPresence: true,
       rules: [
         {
-          test: /\.less$/u,
-          use: ['style-loader', 'css-loader', 'postcss-loader', 'less-loader'],
+          test: /\.less$/i,
+          // loader: ['style-loader', 'css-loader', 'less-loader'],
+          // use: ['style-loader', 'css-loader', 'postcss-loader', 'less-loader'],
+          use: [
+            {
+              loader: "style-loader",
+            },
+            {
+              loader: "css-loader",
+            },
+            {
+              loader: "less-loader",
+              options: {
+                lessOptions: {
+                  strictMath: true,
+                },
+              },
+            }
+            ]
         },
         // Disable require.ensure as it's not a standard language feature.
         { parser: { requireEnsure: false } },
@@ -703,7 +720,7 @@ module.exports = function (webpackEnv) {
           reportFiles: [
             // This one is specifically to match during CI tests,
             // as micromatch doesn't match
-            // '../cra-template-typescript/template/src/App.tsx'
+            // '../cra-template-typescript/template/src/Index.tsx'
             // otherwise.
             '../**/src/**/*.{ts,tsx}',
             '**/src/**/*.{ts,tsx}',
